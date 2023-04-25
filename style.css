@@ -1,0 +1,180 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Nunito Sans;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 100px;
+	background-color: black;
+	padding: 2px 200px 2px 50px;
+	height: 100px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+.bg-img {
+	width: 100%;
+	height: 700px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.nameDiv {
+	position: absolute;
+	left: 250px;
+	top: 300px;
+	line-height: 30px;
+	display: grid;
+
+}
+
+.name {
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
+	font-weight: 900;
+	color: white;
+
+
+}
+
+.role {
+	font-size: 56px;
+	padding: 0;
+	margin: 50px 15px;
+	color: white;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 100%;
+	background-color: #e5e5e5;
+	color: black;
+}
+
+#home {
+	margin: 100px 0px 100px 200px;
+
+}
+
+.projects {
+	margin: 100px 0px 100px 50px;
+
+}
+
+.articles {
+	margin: 50px 0px 100px 50px;
+}
+
+#contact {
+	text-align: center;
+}
+
+.fa {
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 30px;
+	border-radius: 70%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-github {
+	color: rgb(11, 11, 11);
+	background-color: #e5e5e5;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-google {
+	background: #313030;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+footer {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background-color: black;
+	color: white;
+
+}
+
+@media screen and (max-width:600px) {
+	nav {
+		background-color: black;
+		padding: 3px 15px;
+		justify-content: center;
+		column-gap: 20px;
+
+	}
+
+	nav a {
+		color: white;
+	}
+
+	.bg-img {
+		height: 200px;
+
+	}
+
+	.nameDiv {
+		left: 10px;
+		top: 75px;
+	}
+
+	.name {
+		font-size: 30px;
+	}
+
+	.role {
+
+		margin-top: 1px;
+		font-size: 20px;
+	}
+
+	#home {
+		margin: 100px 0px 100px 50px;
+
+	}
+
+	.fa {
+		padding: 20px;
+		margin: 10px;
+	}
+
+}
